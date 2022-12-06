@@ -10,16 +10,15 @@ import {
 const Layout = (props) => {
 
   const isDarkMode = false
-
   return (
-    <SafeAreaView>
+    <SafeAreaView style={{ flex: 1 }}>
       <StatusBar
         barStyle={isDarkMode ? 'light-content' : 'dark-content'}
       />
       <ScrollView
         contentInsetAdjustmentBehavior='automatic'
       >
-        { props.children } 
+        { props.children }
       </ScrollView>
     </SafeAreaView>
   )

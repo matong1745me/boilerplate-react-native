@@ -1,5 +1,5 @@
 import colors from './colors'
 
-export default {
+export {
   colors
 }

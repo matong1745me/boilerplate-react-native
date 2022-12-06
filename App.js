@@ -1,14 +1,13 @@
 import React from 'react'
+import Navigation from '~/navigations'
+
 import Layout from '~/components/layout'
 
-import { Text } from 'react-native'
 
 const App = (props) => {
 
   return (
-    <Layout>
-      <Text>HI</Text>
-    </Layout>
+    <Navigation />
   )
 }
 
